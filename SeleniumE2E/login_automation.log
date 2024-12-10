@@ -1,0 +1,175 @@
+2024-12-03 08:18:04,703 - INFO - ====== WebDriver manager ======
+2024-12-03 08:18:04,881 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-03 08:18:05,053 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-03 08:18:05,216 - INFO - Driver [/Users/saramshkhadka/.wdm/drivers/chromedriver/mac64/131.0.6778.85/chromedriver-mac-arm64/chromedriver] found in cache
+2024-12-03 08:18:07,134 - INFO - WebDriver initialized successfully
+2024-12-03 08:18:07,135 - INFO - Navigating to login page...
+2024-12-03 08:18:09,097 - INFO - Email entered successfully
+2024-12-03 08:18:09,130 - INFO - Password entered successfully
+2024-12-03 08:18:10,172 - ERROR - Login failed with error: Message: element click intercepted: Element <button class="submit color" type="submit" style="background-color: rgb(179, 59, 187); color: rgb(255, 255, 255);">...</button> is not clickable at point (315, 575). Other element would receive the click: <div class="MuiBox-root css-1fbbg8i">...</div>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+0   chromedriver                        0x0000000103153ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x000000010314c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102bb44b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102bfe12c cxxbridge1$string$len + 391424
+4   chromedriver                        0x0000000102bfc77c cxxbridge1$string$len + 384848
+5   chromedriver                        0x0000000102bfa6c0 cxxbridge1$string$len + 376468
+6   chromedriver                        0x0000000102bf9af8 cxxbridge1$string$len + 373452
+7   chromedriver                        0x0000000102beefbc cxxbridge1$string$len + 329616
+8   chromedriver                        0x0000000102beea10 cxxbridge1$string$len + 328164
+9   chromedriver                        0x0000000102c320fc cxxbridge1$string$len + 604368
+10  chromedriver                        0x0000000102bed0b0 cxxbridge1$string$len + 321668
+11  chromedriver                        0x0000000102bedd00 cxxbridge1$string$len + 324820
+12  chromedriver                        0x000000010311ee08 cxxbridge1$str$ptr + 3435328
+13  chromedriver                        0x0000000103122120 cxxbridge1$str$ptr + 3448408
+14  chromedriver                        0x000000010310617c cxxbridge1$str$ptr + 3333812
+15  chromedriver                        0x00000001031229e0 cxxbridge1$str$ptr + 3450648
+16  chromedriver                        0x00000001030f7988 cxxbridge1$str$ptr + 3274432
+17  chromedriver                        0x000000010313d0f4 cxxbridge1$str$ptr + 3558956
+18  chromedriver                        0x000000010313d270 cxxbridge1$str$ptr + 3559336
+19  chromedriver                        0x000000010314bf88 cxxbridge1$str$ptr + 3620032
+20  libsystem_pthread.dylib             0x00000001830fb2e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001830f60fc thread_start + 8
+
+2024-12-03 08:18:10,307 - INFO - Screenshot saved: screenshots/login_error_20241203-081810.png
+2024-12-03 08:18:10,307 - ERROR - Test failed: Message: element click intercepted: Element <button class="submit color" type="submit" style="background-color: rgb(179, 59, 187); color: rgb(255, 255, 255);">...</button> is not clickable at point (315, 575). Other element would receive the click: <div class="MuiBox-root css-1fbbg8i">...</div>
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+0   chromedriver                        0x0000000103153ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x000000010314c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102bb44b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102bfe12c cxxbridge1$string$len + 391424
+4   chromedriver                        0x0000000102bfc77c cxxbridge1$string$len + 384848
+5   chromedriver                        0x0000000102bfa6c0 cxxbridge1$string$len + 376468
+6   chromedriver                        0x0000000102bf9af8 cxxbridge1$string$len + 373452
+7   chromedriver                        0x0000000102beefbc cxxbridge1$string$len + 329616
+8   chromedriver                        0x0000000102beea10 cxxbridge1$string$len + 328164
+9   chromedriver                        0x0000000102c320fc cxxbridge1$string$len + 604368
+10  chromedriver                        0x0000000102bed0b0 cxxbridge1$string$len + 321668
+11  chromedriver                        0x0000000102bedd00 cxxbridge1$string$len + 324820
+12  chromedriver                        0x000000010311ee08 cxxbridge1$str$ptr + 3435328
+13  chromedriver                        0x0000000103122120 cxxbridge1$str$ptr + 3448408
+14  chromedriver                        0x000000010310617c cxxbridge1$str$ptr + 3333812
+15  chromedriver                        0x00000001031229e0 cxxbridge1$str$ptr + 3450648
+16  chromedriver                        0x00000001030f7988 cxxbridge1$str$ptr + 3274432
+17  chromedriver                        0x000000010313d0f4 cxxbridge1$str$ptr + 3558956
+18  chromedriver                        0x000000010313d270 cxxbridge1$str$ptr + 3559336
+19  chromedriver                        0x000000010314bf88 cxxbridge1$str$ptr + 3620032
+20  libsystem_pthread.dylib             0x00000001830fb2e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001830f60fc thread_start + 8
+
+2024-12-03 08:18:10,390 - INFO - WebDriver closed successfully
+2024-12-04 00:56:23,975 - INFO - ====== WebDriver manager ======
+2024-12-04 00:56:29,455 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-04 00:56:29,961 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-04 00:56:30,103 - INFO - There is no [mac64] chromedriver "131.0.6778.87" for browser google-chrome "131.0.6778" in cache
+2024-12-04 00:56:30,111 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-04 00:56:30,420 - INFO - WebDriver version 131.0.6778.87 selected
+2024-12-04 00:56:30,422 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/mac-arm64/chromedriver-mac-arm64.zip
+2024-12-04 00:56:30,422 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/mac-arm64/chromedriver-mac-arm64.zip
+2024-12-04 00:56:30,864 - INFO - Driver downloading response is 200
+2024-12-04 00:56:31,459 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-04 00:56:31,660 - INFO - Driver has been saved in cache [/Users/saramshkhadka/.wdm/drivers/chromedriver/mac64/131.0.6778.87]
+2024-12-04 00:56:34,850 - INFO - WebDriver initialized successfully
+2024-12-04 00:56:34,861 - INFO - Navigating to login page...
+2024-12-04 00:56:37,164 - INFO - Email entered successfully
+2024-12-04 00:56:37,200 - INFO - Password entered successfully
+2024-12-04 00:56:38,284 - ERROR - Login failed with error: Message: element click intercepted: Element <button class="submit color" type="submit" style="background-color: rgb(179, 59, 187); color: rgb(255, 255, 255);">...</button> is not clickable at point (315, 575). Other element would receive the click: <div class="MuiBox-root css-1fbbg8i">...</div>
+  (Session info: chrome=131.0.6778.87)
+Stacktrace:
+0   chromedriver                        0x00000001008ebb08 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001008e4358 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x000000010034c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x000000010039612c cxxbridge1$string$len + 391424
+4   chromedriver                        0x000000010039477c cxxbridge1$string$len + 384848
+5   chromedriver                        0x00000001003926c0 cxxbridge1$string$len + 376468
+6   chromedriver                        0x0000000100391af8 cxxbridge1$string$len + 373452
+7   chromedriver                        0x0000000100386fbc cxxbridge1$string$len + 329616
+8   chromedriver                        0x0000000100386a10 cxxbridge1$string$len + 328164
+9   chromedriver                        0x00000001003ca0fc cxxbridge1$string$len + 604368
+10  chromedriver                        0x00000001003850b0 cxxbridge1$string$len + 321668
+11  chromedriver                        0x0000000100385d00 cxxbridge1$string$len + 324820
+12  chromedriver                        0x00000001008b6e4c cxxbridge1$str$ptr + 3435328
+13  chromedriver                        0x00000001008ba164 cxxbridge1$str$ptr + 3448408
+14  chromedriver                        0x000000010089e1c0 cxxbridge1$str$ptr + 3333812
+15  chromedriver                        0x00000001008baa24 cxxbridge1$str$ptr + 3450648
+16  chromedriver                        0x000000010088f9cc cxxbridge1$str$ptr + 3274432
+17  chromedriver                        0x00000001008d5138 cxxbridge1$str$ptr + 3558956
+18  chromedriver                        0x00000001008d52b4 cxxbridge1$str$ptr + 3559336
+19  chromedriver                        0x00000001008e3fcc cxxbridge1$str$ptr + 3620032
+20  libsystem_pthread.dylib             0x00000001830fb2e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001830f60fc thread_start + 8
+
+2024-12-04 00:56:38,492 - INFO - Screenshot saved: screenshots/login_error_20241204-005638.png
+2024-12-04 00:56:38,493 - ERROR - Test failed: Message: element click intercepted: Element <button class="submit color" type="submit" style="background-color: rgb(179, 59, 187); color: rgb(255, 255, 255);">...</button> is not clickable at point (315, 575). Other element would receive the click: <div class="MuiBox-root css-1fbbg8i">...</div>
+  (Session info: chrome=131.0.6778.87)
+Stacktrace:
+0   chromedriver                        0x00000001008ebb08 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001008e4358 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x000000010034c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x000000010039612c cxxbridge1$string$len + 391424
+4   chromedriver                        0x000000010039477c cxxbridge1$string$len + 384848
+5   chromedriver                        0x00000001003926c0 cxxbridge1$string$len + 376468
+6   chromedriver                        0x0000000100391af8 cxxbridge1$string$len + 373452
+7   chromedriver                        0x0000000100386fbc cxxbridge1$string$len + 329616
+8   chromedriver                        0x0000000100386a10 cxxbridge1$string$len + 328164
+9   chromedriver                        0x00000001003ca0fc cxxbridge1$string$len + 604368
+10  chromedriver                        0x00000001003850b0 cxxbridge1$string$len + 321668
+11  chromedriver                        0x0000000100385d00 cxxbridge1$string$len + 324820
+12  chromedriver                        0x00000001008b6e4c cxxbridge1$str$ptr + 3435328
+13  chromedriver                        0x00000001008ba164 cxxbridge1$str$ptr + 3448408
+14  chromedriver                        0x000000010089e1c0 cxxbridge1$str$ptr + 3333812
+15  chromedriver                        0x00000001008baa24 cxxbridge1$str$ptr + 3450648
+16  chromedriver                        0x000000010088f9cc cxxbridge1$str$ptr + 3274432
+17  chromedriver                        0x00000001008d5138 cxxbridge1$str$ptr + 3558956
+18  chromedriver                        0x00000001008d52b4 cxxbridge1$str$ptr + 3559336
+19  chromedriver                        0x00000001008e3fcc cxxbridge1$str$ptr + 3620032
+20  libsystem_pthread.dylib             0x00000001830fb2e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001830f60fc thread_start + 8
+
+2024-12-04 00:56:38,585 - INFO - WebDriver closed successfully
+2024-12-09 10:53:54,651 - INFO - ====== WebDriver manager ======
+2024-12-09 10:53:55,106 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 10:53:55,364 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 10:53:55,501 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 10:53:55,794 - INFO - WebDriver version 131.0.6778.87 selected
+2024-12-09 10:53:55,795 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/mac-arm64/chromedriver-mac-arm64.zip
+2024-12-09 10:53:55,795 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/mac-arm64/chromedriver-mac-arm64.zip
+2024-12-09 10:53:56,111 - INFO - Driver downloading response is 200
+2024-12-09 10:53:56,692 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 10:53:56,899 - INFO - Driver has been saved in cache [/Users/saramshkhadka/.wdm/drivers/chromedriver/mac64/131.0.6778.87]
+2024-12-09 10:54:00,509 - INFO - WebDriver initialized successfully
+2024-12-09 10:54:00,510 - INFO - Navigating to login page...
+2024-12-09 10:54:02,693 - INFO - Email entered successfully
+2024-12-09 10:54:02,726 - INFO - Password entered successfully
+2024-12-09 10:54:02,765 - INFO - Login button clicked
+2024-12-09 10:54:12,960 - ERROR - Element not found: .dashboard-element
+2024-12-09 10:54:13,132 - INFO - Screenshot saved: screenshots/element_not_found_.dashboard-element_20241209-105412.png
+2024-12-09 10:54:13,132 - ERROR - Login failed - Dashboard not loaded
+2024-12-09 10:54:13,204 - INFO - Screenshot saved: screenshots/login_failed_20241209-105413.png
+2024-12-09 10:54:13,311 - INFO - WebDriver closed successfully
+2024-12-09 11:06:36,014 - INFO - ====== WebDriver manager ======
+2024-12-09 11:06:36,257 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 11:06:36,416 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 11:06:36,556 - INFO - Driver [/Users/saramshkhadka/.wdm/drivers/chromedriver/mac64/131.0.6778.87/chromedriver-mac-arm64/chromedriver] found in cache
+2024-12-09 11:06:38,804 - INFO - WebDriver initialized successfully
+2024-12-09 11:06:38,806 - INFO - Navigating to login page...
+2024-12-09 11:06:40,745 - ERROR - Login failed with error: 'NoneType' object is not iterable
+2024-12-09 11:06:40,821 - INFO - Screenshot saved: screenshots/login_error_20241209-110640.png
+2024-12-09 11:06:40,821 - ERROR - Test failed: 'NoneType' object is not iterable
+2024-12-09 11:06:40,922 - INFO - WebDriver closed successfully
+2024-12-09 11:08:50,110 - INFO - ====== WebDriver manager ======
+2024-12-09 11:08:50,294 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 11:08:50,444 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-09 11:08:50,584 - INFO - Driver [/Users/saramshkhadka/.wdm/drivers/chromedriver/mac64/131.0.6778.87/chromedriver-mac-arm64/chromedriver] found in cache
+2024-12-09 11:08:52,744 - INFO - WebDriver initialized successfully
+2024-12-09 11:08:52,746 - INFO - Navigating to login page...
+2024-12-09 11:08:54,914 - INFO - Email entered successfully
+2024-12-09 11:08:54,956 - INFO - Password entered successfully
+2024-12-09 11:08:54,996 - INFO - Login button clicked
+2024-12-09 11:09:05,228 - ERROR - Element not found: .dashboard-element
+2024-12-09 11:09:05,318 - INFO - Screenshot saved: screenshots/element_not_found_.dashboard-element_20241209-110905.png
+2024-12-09 11:09:05,318 - ERROR - Login failed - Dashboard not loaded
+2024-12-09 11:09:05,379 - INFO - Screenshot saved: screenshots/login_failed_20241209-110905.png
+2024-12-09 11:09:05,481 - INFO - WebDriver closed successfully
